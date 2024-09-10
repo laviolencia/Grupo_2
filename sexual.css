@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #F4ECF7;
+	width: 90%;
+	margin: auto;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #BB8FCE;
+	text-align: center;
+	margin: 0.40% 0px;
+	border-radius: 10px;
+	color: red;
+	padding: 10px 0;
+}
+
+figure {
+	margin: 0;
+}
+
+#logo {
+	width: 80px;
+	border-radius: 10px;
+}
+
+.navegacion {
+	width: 100%;
+	margin: 3px auto;
+	background-color: rgba(191, 147, 204, 0.50);
+	border-radius: 15px;
+	border-bottom: thick solid DarkViolet;
+	border-right: thick solid DarkViolet;
+	padding: 5px 0;
+}
+
+.navegacion ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu > li {
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a {
+	display: block;
+	padding: 10px;
+	color: #930FA5;
+	font-family: Arial Black;
+	text-decoration: none;
+	width: 150px;
+	text-align: center;
+}
+
+.menu li a:hover {
+	background: #5B027A;
+	color: #fff;
+	transition: all 1s;
+	font-weight: bolder;
+	border-radius: 12px;
+	text-transform: uppercase;
+}
+
+/* Submenu */
+.submenu {
+	position: absolute;
+	background-color: rgba(102, 0, 140, 0.5);
+	width: 150px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	top: 100%;
+}
+
+.submenu li a {
+	display: block;
+	padding: 5px;
+	color: #fff;
+	font-family: 'Open Sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu {
+	visibility: visible;
+	opacity: 1;
+	font-size: large;
+}
+
+a {
+	line-height: 1.5rem;
+	display: block;
+}
+
+aside {
+	background-color: #C39BD3;
+	margin: 0.40%;
+	float: right;
+	border-radius: 10px;
+	width: 35%;
+	height: 600px;
+	padding: 10px;
+	overflow-y: auto;
+}
+
+section {
+	background-color: #9830c5;
+	margin: 0.40%;
+	color: white;
+	float: left;
+	width: 60%;
+	height: 600px;
+	border-radius: 10px;
+	padding: 10px;
+	overflow-y: auto;
+}
+
+article {
+	background-color: #F4ECF7;
+	margin: 1%;
+	width: 98%;
+	height: auto;
+	border-radius: 10px;
+	color: black;
+	padding: 15px;
+	overflow-y: auto;
+}
+
+footer {
+	background-color: #D7BDE2;
+	height: 60px;
+	clear: both;
+	border-radius: 10px;
+	text-align: center;
+	padding: 15px 0;
+}
